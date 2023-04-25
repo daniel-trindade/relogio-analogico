@@ -1,0 +1,179 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+  background-color: #6f8b94;
+}
+
+h1{
+  text-align: center;
+  padding-top: 30px;
+  color: #703d6f;
+}
+
+main{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#clock{
+  width: 450px;
+  height: 450px;
+  border: 10px solid #706482;
+  border-radius: 300px;
+  background-color:#e6eba9;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#second-hand{
+  width: 5px;
+  height: 180px;
+  background-color: #703d6f;
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  transform-origin: bottom;
+}
+
+#minute-hand{
+  width: 8px;
+  height: 150px;
+  background-color: #6f8b94;
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  transform-origin: bottom;
+}
+
+#hour-hand{
+  width: 10px;
+  height: 120px;
+  background-color: #706482;
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  transform-origin: bottom;
+}
+
+#dot{
+  width: 30px;
+  height: 30px;
+  background-color: #703d6f;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.number{
+  font-size: 24pt;
+  font-weight: 600;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  color: #703d6f;
+}
+
+#number-1{
+  transform: rotate(30deg);
+}
+
+#rotate-1{
+  transform: rotate(-30deg);
+}
+
+#number-2{
+  transform: rotate(60deg);
+}
+
+#rotate-2{
+  transform: rotate(-60deg);
+}
+
+#number-3{
+  transform: rotate(90deg);
+}
+
+#rotate-3{
+  transform: rotate(-90deg);
+}
+
+#number-4{
+  transform: rotate(120deg);
+}
+
+#rotate-4{
+  transform: rotate(-120deg);
+}
+
+#number-5{
+  transform: rotate(150deg);
+}
+
+#rotate-5{
+  transform: rotate(-150deg);
+}
+
+#number-6{
+  transform: rotate(180deg);
+}
+
+#rotate-6{
+  transform: rotate(-180deg);
+}
+
+#number-7{
+  transform: rotate(210deg);
+}
+
+#rotate-7{
+  transform: rotate(-210deg);
+}
+
+#number-8{
+  transform: rotate(240deg);
+}
+
+#rotate-8{
+  transform: rotate(-240deg);
+}
+
+#number-9{
+  transform: rotate(270deg);
+}
+
+#rotate-9{
+  transform: rotate(-270deg);
+}
+
+#number-10{
+  transform: rotate(300deg);
+}
+
+#rotate-10{
+  transform: rotate(-300deg);
+}
+
+#number-11{
+  transform: rotate(330deg);
+}
+
+#rotate-11{
+  transform: rotate(-330deg);
+}
+
+footer{
+  text-align: center;
+  margin-top: -200px;
+  color: #3c1d6b;
+}
