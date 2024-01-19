@@ -1,0 +1,14 @@
+#dig-container{
+  display: flex;
+  margin-top: 100px;
+  border: 2px solid #e6eba9;
+  height: 150px;
+  width: 500px;
+  justify-content: center;
+}
+
+.dig-time{
+  padding: 20px;
+  font-size: 60pt;
+  color: #703d6f;
+}

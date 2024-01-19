@@ -1,0 +1,31 @@
+#menu-bar{
+  display: flex;
+  background-color: #706482;
+}
+
+#icon-menu{
+  width: 50px;
+  margin: 10px 15px 5px 10px
+}
+
+#menu{
+  margin-top: 8px;
+  margin-left: 270px;
+  font-size: 14pt;
+}
+
+#menu li{
+  display: inline-block;
+  padding: 10px;
+}
+
+#menu li a{
+  text-decoration: none;
+  transition: .5s;
+  color: #6f8b94;
+  font-weight: 700;
+}
+
+#menu li a:hover{
+  color: #e6eba9;
+}
